@@ -2,6 +2,7 @@ body {
   background: linear-gradient(to bottom, rgb(255, 146, 146), rgb(253, 73, 73), rgb(255, 146, 146) );  
   text-align: center;
   font-family: 'MedievalSharp', cursive;
+  font-size: 50px;
   margin: 0;
   padding: 0;
 }
