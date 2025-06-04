@@ -12,6 +12,11 @@
     <a href="p3.html">Galeria</a>
   </nav>
   </div>
+      <div class="container">
+    <audio id="audio" controls autoplay loop>
+      <source src="audio.mp3" type="audio/mp3">
+    </audio>
+  </div>
   <div class="fotos/videos">
     <div>
         <h2>Nossas Memórias</h2>
@@ -133,23 +138,13 @@
     </div>
   </div>
 
-  <div class="container">
-    <audio id="audio" controls autoplay>
+    <div class="container">
+    <audio id="audio" controls autoplay loop>
       <source src="audio.mp3" type="audio/mp3">
-      Seu navegador não suporta a tag de áudio.
     </audio>
   </div>
-
-  <script>
-    const audio = document.getElementById('audio');
-    const video = document.getElementById('video');
-
-    video.addEventListener('play', () => {
-      if (!audio.paused) {
-        audio.pause();
-      }
-    });
-  </script>
+  <script src="audio2.js"></script>
+  <script src="audio.js"></script>
 
   <script src="contador.js"></script>
 </body>  
